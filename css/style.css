@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+a, div.widget_categories ul li a:hover, div.widget_nav_menu ul li a:hover, div.widget_archive ul li a:hover, div.widget_recent_comments ul li a:hover, div.widget_pages ul li a:hover, div.widget_links ul li a:hover, div.widget_recent_entries ul a:hover, div.widget_meta ul li a:hover, div.widget_display_forums ul li a:hover, .widget_display_replies ul li a:hover, .widget_display_topics li>a.bbp-forum-title:hover, .widget_display_stats dt:hover, .widget_display_stats dd:hover, div.widget_display_views ul li a:hover, .widget_layered_nav ul li a:hover, .widget_product_categories ul li a:hover {
+    color: #f3a395;
+}
+
+a {
+    max-width: 100%;
+    outline: 0 none;
+    text-decoration: none;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+}
+
+body {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: normal;
+    overflow-x: hidden;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    position: relative;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+
+@media only screen and (min-width: 1024px)
+{
+    body.zass_transparent_header #header {
+        width: 100%;
+        position: absolute;
+        z-index: 20000;
+        background: 0 0;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+#pre_header, .toggler {
+    background-color: #f0eeea;
+}
+
+#pre_header {
+    position: relative;
+    font-size: 12px;
+    margin: 0;
+    min-width: 100%;
+    z-index: 21000;
+    background-color: #333;
+}
+
+#pre_header a {
+    color: #666;
+}
+
+.toggler {
+    border-color: #f0eeea;
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid #333;
+    transform: rotate(
+                        -45deg
+                        );
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(
+                                -45deg
+                                );
+    -o-transform: rotate(-45deg);
+    bottom: -47px;
+    right: -7px;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 0px;
+    z-index: 1;
+}
+
+#pre_header, .toggler {
+    background-color: #f0eeea;
+}
+
+div.widget_categories ul li.current-cat>a:before, p.woocommerce-thankyou-order-received, .wpb_zass_banner a span.zass_banner-icon, .toggler:before, .zass-product-slider.owl-carousel .owl-nav .owl-prev:hover, .zass-product-slider.owl-carousel .owl-nav .owl-next:hover, .widget_shopping_cart_content p.buttons .button.checkout, .zass-portfolio-categories ul li a:hover, .zass-portfolio-categories ul li a.is-checked, .zass-event-countdown .is-countdown, .video_controlls a#video-volume:after, div.widget_categories ul li>a:hover:before, #main-menu ul.menu>li>a:hover, #main-menu ul.menu>li.current-menu-item>a, li.product-category.product a h3, .otw-input-wrap:before, .summary.entry-summary .yith-wcwl-add-to-wishlist a:before, .summary.entry-summary .yith-wcwl-add-to-wishlist a:after, .summary.entry-summary .compare:before, .prod_hold .price_hold:before, a.bbp-forum-title:hover, .portfolio_top .project-data .main-features .checklist li:before, body.zass_transparent_header #main-menu ul.menu>li.current_page_item>a:before, body.zass_transparent_header #main-menu ul.menu>li.current-menu-item>a:before, body.zass_transparent_header #main-menu ul.menu>li>a:hover:before {
+    color: #f3a395;
+}
+
+.toggler:before {
+    display: block;
+    color: #fff;
+    content: "\f067";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 10px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    right: 11px;
+    top: -13px;
+    z-index: 2;
+    transform: rotate(
+                        45deg
+                        );
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(
+                                45deg
+                                );
+    -o-transform: rotate(45deg);
+}
+
+#header,
+#header2 {    
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    background-color: #fff;
+}
